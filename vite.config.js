@@ -8,5 +8,9 @@ export default defineConfig({
     cssMinify: true,
     minify: true,
   },
+  define: {
+    "process.env": process.env,
+    ENV_KEY: process.env.ENV_KEY,
+  },
   plugins: [react(),  compression()],
 })
