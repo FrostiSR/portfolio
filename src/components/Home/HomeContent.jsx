@@ -6,7 +6,7 @@ export default function HomeContent() {
       <h1 className="fw-bold">
         Hi, I'm <span className="span-text">Daniël dos Ramos</span> .
       </h1>
-      {/* <p className="type-title">
+      <p className="type-title">
         I'm a&nbsp;
         <span>
           <Typewriter
@@ -19,7 +19,7 @@ export default function HomeContent() {
             delaySpeed={1000}
           />
         </span>
-      </p> */}
+      </p>
       <p className="loc-text">Based in Paramaribo, Suriname</p>
     </>
   );
