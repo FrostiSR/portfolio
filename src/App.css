@@ -33,8 +33,6 @@
   }
 }
 #left::after{
-  opacity: 0.2;
-  filter: blur(200px);
   z-index: -1;
 }
 
