@@ -2,7 +2,7 @@ import "./Card.css";
 
 export default function Card({ date, title, place, techs, description, id }) {
   return (
-    <div className="card-custom mb-2" key={id}>
+    <div className="card-custom mb-4" key={id}>
       <div className="card-date mb-2">
         <p>{date}</p>
       </div>
