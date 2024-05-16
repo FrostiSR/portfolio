@@ -40,7 +40,7 @@ export default function ContactForm() {
         import.meta.env.VITE_TEMPLATE_ID,
         form.current,
         {
-          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+          publicKey: import.meta.env.VITE_PUBLIC,
         }
       )
       .then((result) => {
