@@ -5,9 +5,8 @@ import "./Portfolio.css";
 import Web from "./Web";
 import Graphic from "./Graphic";
 import Photography from "./Photography";
-import React from "react";
 
-export default React.memo(function Portfolio() {
+export default function Portfolio() {
   return (
     <Section
       id="portfolio"
@@ -33,4 +32,4 @@ export default React.memo(function Portfolio() {
       </Tabs>
     </Section>
   );
-});
+}
