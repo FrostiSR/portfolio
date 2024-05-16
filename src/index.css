@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+a:hover,
+a.active{
+  color: #64CCC5 !important;
+  cursor: pointer !important;
+}
+
+body {
+  overflow-x: hidden;
+  color: #fff !important;
+  background-color: #131313 !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  button {
+    width: 100%;
+    font-size: 1em !important;
+  }
+  
+}

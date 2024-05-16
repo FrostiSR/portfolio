@@ -1,0 +1,17 @@
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white !important;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white !important;
+}
+
+.icon{
+    color: #64CCC5;
+    font-size: 20px;
+}

@@ -1,0 +1,70 @@
+#home{
+    height: 100vh;
+}
+
+.span-text{
+    color: #4ec4bc;
+}
+
+.span-type{
+    color: #176B87;
+}
+
+.type-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 5.5em;
+    font-weight: bold;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.loc-text{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+hr.style-two {
+    width: 50%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 1576px) {
+  
+    /* CSS */
+    .type-title{
+        display: inline;
+        font-size: 8.5vmin;
+        font-weight: bold;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .type-title{
+        display: inline;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .loc-text{
+        font-size: 1em;
+    }
+    
+  }
+    
+    

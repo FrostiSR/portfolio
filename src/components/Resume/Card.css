@@ -1,0 +1,49 @@
+.card-custom{
+    background-color: #080b0c;
+    border-radius: 20px;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 10px;
+    color: #fff;
+    width: fit-content;
+    margin: 0 !important;
+}
+
+.card-custom p{
+    margin: 1px 0 0 0 !important;
+}
+
+.card-place{
+    color: #64CCC5;
+}
+
+.card-date{
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #176B87;
+}
+
+.card-date p{
+    padding: 5px;
+ }
+
+ .tech-inline{
+    display: flex !important;
+    flex-direction: row;
+ }
+ 
+.card-techs{
+    width: fit-content;
+    display: inline !important;
+    height: auto;
+    border-radius: 20px;
+    background-color: #122d3e;
+}
+.card-techs p{
+    padding: 5px;
+    display: inline-block;
+ }
+
+.skill-dot{
+    color: #64CCC5;
+}
