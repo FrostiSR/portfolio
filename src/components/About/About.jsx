@@ -14,11 +14,11 @@ export default function About() {
       subTitle={"Know Me More"}
     >
       <Row className="text-center justify-content-evenly">
-        <Col xs={12} md={6} className="text-start border-end p-2">
+        <Col xs={12} md={12} className="text-start p-2">
           <h4 className="fw-bold">{ABOUT.about.left.title}</h4>
           <p className="description-text">{ABOUT.about.left.content}</p>
         </Col>
-        <Col xs={12} md={6} className="text-start p-2">
+        {/* <Col xs={12} md={6} className="text-start p-2">
           <p>
             <span className="fw-bold head-color">Name: </span>{" "}
             {ABOUT.about.right.name}
@@ -40,7 +40,7 @@ export default function About() {
             {ABOUT.about.right.freelance}
           </p>
           <Socials />
-        </Col>
+        </Col> */}
       </Row>
       <Services />
     </Section>
