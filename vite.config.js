@@ -4,5 +4,9 @@ import { compression } from 'vite-plugin-compression2'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),  compression({ algorithm: 'brotliCompress' })],
+  build:{
+    cssMinify: true,
+    minify: true,
+  },
+  plugins: [react(),  compression()],
 })
