@@ -1,3 +1,4 @@
+import React from "react";
 import Button from "../Buttons/Button";
 import Socials from "../SocialIcons/Socials";
 import "./Home.css";
@@ -7,7 +8,7 @@ import ContentModal from "../Modal/ContentModal";
 import { DOCS } from "../../data";
 import { GB, NL } from "country-flag-icons/react/3x2";
 
-export default function Home() {
+export default React.memo(function Home() {
   const modal = useRef();
   function handleOpenClick() {
     modal.current.open();
@@ -51,4 +52,4 @@ export default function Home() {
       </section>
     </>
   );
-}
+});
