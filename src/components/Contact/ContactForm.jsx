@@ -6,9 +6,11 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import "./Contact.css";
 import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
   const ref = useRef();
+  const form = useRef();
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
@@ -27,12 +29,20 @@ export default function ContactForm() {
 
   const handleUpload = (e) => {
     e.preventDefault();
-    axios
-      .post("https://portfolio-server-nine-ruddy.vercel.app/newContact", {
-        name,
-        email,
-        message,
-      })
+    axios.post("https://portfolio-server-nine-ruddy.vercel.app/newContact", {
+      name,
+      email,
+      message,
+    });
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+        }
+      )
       .then((result) => {
         Swal.fire({
           title: "Thank you!",
@@ -53,13 +63,12 @@ export default function ContactForm() {
   };
   return (
     <>
-      <Form className="text-center" onSubmit={handleUpload}>
+      <Form ref={form} className="text-center" onSubmit={handleUpload}>
         <Row className="mb-3 gap-2">
           <Form.Group as={Col} controlId="formGridEmail">
             <Form.Control
               type="text"
               name="name"
-              ref={ref}
               onChange={(e) => setName(e.target.value)}
               onKeyDown={checkSpecialChar}
               className="bg-dark text-white border-0"
@@ -71,7 +80,6 @@ export default function ContactForm() {
             <Form.Control
               type="email"
               name="email"
-              ref={ref}
               onChange={(e) => setEmail(e.target.value)}
               className="bg-dark text-white border-0"
               placeholder="Email"
@@ -82,9 +90,8 @@ export default function ContactForm() {
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Control
-            placeholder="Your Message..."
-            name="description"
-            ref={ref}
+            name="message"
+            placeholder="Message"
             onChange={(e) => setMessage(e.target.value)}
             onKeyDown={checkSpecialCharXSS}
             as="textarea"
@@ -92,11 +99,13 @@ export default function ContactForm() {
             rows={3}
           />
         </Form.Group>
+        {/* <textarea name="message" /> */}
 
         <Button
           id="btn-fill"
           className="border-0"
           type="submit"
+          value="Send"
           onClick={handleClick}
         >
           Send Message
