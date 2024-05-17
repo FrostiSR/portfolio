@@ -25,7 +25,7 @@ export default function SinglePage() {
         <div id="left" className="container-left">
           <SideNav />
         </div>
-        <div id="right" className="p-5">
+        <div id="right">
           <Home />
           <hr className="sub-border" />
           <About />
