@@ -73,6 +73,7 @@ export default function ContactForm() {
               onKeyDown={checkSpecialChar}
               className="bg-dark text-white border-0"
               placeholder="Name"
+              required
             />
           </Form.Group>
 
@@ -84,6 +85,7 @@ export default function ContactForm() {
               className="bg-dark text-white border-0"
               placeholder="Email"
               pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"
+              required
             />
           </Form.Group>
         </Row>
@@ -97,6 +99,7 @@ export default function ContactForm() {
             as="textarea"
             className="bg-dark text-white border-0"
             rows={3}
+            required
           />
         </Form.Group>
         {/* <textarea name="message" /> */}
