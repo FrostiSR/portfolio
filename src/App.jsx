@@ -17,7 +17,7 @@ function App() {
 }
 
 function Redirect() {
-  window.location.replace("https://portfolio-cms-green.vercel.app/");
+  window.location.replace("https://portfolio-cms-green.vercel.app");
 }
 
 export default App;
