@@ -10,9 +10,14 @@ function App() {
       <Routes location={location} key={location.pathname}>
         <Route path="*" element={<SinglePage />} />
         <Route path="/" element={<SinglePage />} />
+        <Route path="/admin" element={<Redirect />} />
       </Routes>
     </>
   );
+}
+
+function Redirect() {
+  window.location.replace("https://portfolio-cms-green.vercel.app/");
 }
 
 export default App;
