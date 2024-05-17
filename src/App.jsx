@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Routes location={location} key={location.pathname}>
-        <Route path="*" element={<SinglePage />} />
         <Route path="/" element={<SinglePage />} />
         <Route path="/admin" element={<Redirect />} />
+        <Route path="*" element={<SinglePage />} />
       </Routes>
     </>
   );
