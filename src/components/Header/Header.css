@@ -4,7 +4,7 @@
     height: fit-content;
   }
   
-  .top, .below{
+.top, .below{
     grid-column: 1;
     grid-row: 1;
   }
@@ -46,9 +46,14 @@ margin: 0 !important;
 @media (min-width: 320px) and (max-width: 480px) {
   
   /* CSS */
-  /* .head-title{
-    font-size: 2.5em;
-    } */
+  .head-title{
+    font-size:  2.4em;
+    letter-spacing: 0.3em;
+    }
+    
+    .sub-title{
+        font-size: 1.2em;
+        }
   
 }
 
