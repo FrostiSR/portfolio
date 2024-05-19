@@ -10,7 +10,7 @@ export default function HomeContent() {
         I'm a&nbsp;
         <span>
           <Typewriter
-            words={["Full-Stack Developer", "Graphic Designer"]}
+            words={["FullStack Developer", "Graphic Designer"]}
             loop={false}
             cursor
             cursorStyle="_"
