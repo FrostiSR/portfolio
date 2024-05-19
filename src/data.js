@@ -5,7 +5,7 @@ export const ABOUT = {
   
     about:{
         left: {
-            title: 'I am Daniel dos Ramos, a Full-Stack Web Developer + Graphic Designer',
+            title: 'I am Daniel dos Ramos, a Full-Stack Developer + Graphic Designer',
             content:
             `I have 3+ years of experience with all phases of the
             development cycle for dynamic web projects and graphic design. Well
