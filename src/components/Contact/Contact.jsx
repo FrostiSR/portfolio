@@ -13,16 +13,14 @@ export default function Contact() {
     >
       <Row className="text-center justify-content-evenly">
         <Col xs={12} md={4} className="text-start p-2">
-          <h4 className="title-text">Feel Free To Contact Me</h4>
+          <h4 className="title-text fw-bold">Feel Free To Contact Me</h4>
           <p className="d-flex flex-row align-items-center gap-2">
             <i className="icon bi bi-geo-alt-fill"></i>
-            <span className="fw-bold description-text">
-              Paramaribo, Suriname
-            </span>
+            <span className="description-text">Paramaribo, Suriname</span>
           </p>
           <p className="d-flex flex-row align-items-center gap-2">
             <i className="icon bi bi-envelope-fill"></i>
-            <span className="fw-bold description-text">
+            <span className="description-text">
               daniel.dosramos08@gmail.com
             </span>
           </p>
