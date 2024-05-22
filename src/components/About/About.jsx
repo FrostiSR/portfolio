@@ -15,7 +15,7 @@ export default function About() {
     >
       <Row className="text-center justify-content-evenly">
         <Col xs={12} md={12} className="text-start p-2">
-          <h4 className="fw-bold">{ABOUT.about.left.title}</h4>
+          <h4 className="fw-bold title-text">{ABOUT.about.left.title}</h4>
           <p className="description-text">{ABOUT.about.left.content}</p>
         </Col>
         {/* <Col xs={12} md={6} className="text-start p-2">

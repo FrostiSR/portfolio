@@ -15,7 +15,9 @@ export default function About() {
               <i className="bi bi-palette-fill"></i>
             </div>
             <div>
-              <h4 className="fw-bold">{ABOUT.services.graphic.title}</h4>
+              <h4 className="fw-bold title-text">
+                {ABOUT.services.graphic.title}
+              </h4>
               <p className="description-text">
                 {ABOUT.services.graphic.content}
               </p>
@@ -28,7 +30,7 @@ export default function About() {
               <i className="bi bi-code-slash"></i>
             </div>
             <div>
-              <h4 className="fw-bold">{ABOUT.services.web.title}</h4>
+              <h4 className="fw-bold title-text">{ABOUT.services.web.title}</h4>
               <p className="description-text">{ABOUT.services.web.content}</p>
             </div>
           </div>

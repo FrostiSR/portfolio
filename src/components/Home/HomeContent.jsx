@@ -3,10 +3,10 @@ import { Typewriter } from "react-simple-typewriter";
 export default function HomeContent() {
   return (
     <>
-      <h1 className="fw-bold">
+      <h1 className="fw-bold title-text">
         Hi, I'm <span className="span-text">Daniël dos Ramos</span> .
       </h1>
-      <p className="type-title">
+      <p className="type-title title-text">
         I'm a&nbsp;
         <span>
           <Typewriter
@@ -20,7 +20,7 @@ export default function HomeContent() {
           />
         </span>
       </p>
-      <p className="loc-text">Based in Paramaribo, Suriname</p>
+      <p className="loc-text description-text">Based in Paramaribo, Suriname</p>
     </>
   );
 }

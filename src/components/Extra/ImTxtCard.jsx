@@ -34,7 +34,9 @@ export default function ImTxtCard({ title, description, img, link, ...props }) {
           />
         </Col>
         <Col xs={12} md={6} className="text-start p-4">
-          <h2 className="featurette-heading fw-bold lh-1">{title}</h2>
+          <h2 className="featurette-heading fw-bold lh-1 title-text">
+            {title}
+          </h2>
           <p className="lead description-text">{description}</p>
           {/* {link && <a href={link}>Read more...</a>} */}
         </Col>

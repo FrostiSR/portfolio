@@ -21,7 +21,7 @@ export default function Education() {
   return (
     <>
       <Col xs={12} md={6} className="text-start p-2">
-        <h4 className="fw-bold">My Education</h4>
+        <h4 className="fw-bold title-text">My Education</h4>
         {loading ? (
           <Loading />
         ) : (
