@@ -19,7 +19,7 @@ export default function Skills() {
   return (
     <>
       <div className="mt-5">
-        <h4 className="fw-bold title-text">My Skills</h4>
+        <h4 className="fw-bold title-text">Technical Skills</h4>
         <div className="text-center">
           <div className="card-custom w-100 mb-2 mt-2">
             <span>
