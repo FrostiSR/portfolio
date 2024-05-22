@@ -21,7 +21,7 @@ export default function CardCase({ image, url, alt, title, type }) {
           </a>
         </div>
         <h5>{title}</h5>
-        <p>{type}</p>
+        <p className="description-text">{type}</p>
       </div>
     </>
   );
