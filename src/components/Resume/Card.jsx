@@ -1,4 +1,5 @@
 import "./Card.css";
+import "./Accordion.css";
 
 export default function Card({ date, title, place, techs, description, id }) {
   return (

@@ -31,7 +31,7 @@ export default function Resume() {
         title={"Summary"}
         subTitle={"Resume"}
       >
-        <Row className="text-center justify-content-evenly">
+        <Row className="text-center justify-content-evenly w-100">
           <Experience />
           <Education />
         </Row>
