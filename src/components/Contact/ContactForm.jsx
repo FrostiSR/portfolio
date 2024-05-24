@@ -14,6 +14,7 @@ export default function ContactForm() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
+  const [pending, setPending] = useState(false);
 
   const checkSpecialChar = (e) => {
     if (/[^\w\s]/gi.test(e.key)) {
@@ -27,34 +28,44 @@ export default function ContactForm() {
     }
   };
 
-  const handleUpload = (e) => {
+  const handleUpload = async (e) => {
     e.preventDefault();
-    axios.post("https://portfolio-server-nine-ruddy.vercel.app/newContact", {
-      name,
-      email,
-      message,
-    });
-    emailjs
-      .sendForm(
+    try {
+      setPending(true);
+      await axios.post(
+        "https://portfolio-server-nine-ruddy.vercel.app/newContact",
+        {
+          name,
+          email,
+          message,
+        }
+      );
+      emailjs.sendForm(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         form.current,
         {
           publicKey: import.meta.env.VITE_PUBLIC,
         }
-      )
-      .then((result) => {
-        Swal.fire({
-          title: "Thank you!",
-          icon: "success",
-        });
-      })
-      .catch((err) => {
-        Swal.fire({
-          title: "You have already submitted!",
-          icon: "error",
-        });
+      );
+      Swal.fire({
+        title: "Thank you!",
+        icon: "success",
       });
+      // .then((result) => {
+      //   Swal.fire({
+      //     title: "Thank you!",
+      //     icon: "success",
+      //   });
+      // });
+    } catch (error) {
+      setPending(false);
+      Swal.fire({
+        title: "You have already submitted!",
+        icon: "error",
+      });
+    }
+    setPending(false);
     e.target.reset();
   };
 
@@ -110,8 +121,9 @@ export default function ContactForm() {
           type="submit"
           value="Send"
           onClick={handleClick}
+          disabled={pending ? true : false}
         >
-          Send Message
+          {pending ? "Submitting" : " Send Message"}
         </Button>
       </Form>
     </>
