@@ -1,5 +1,5 @@
-import CvEN from './assets/docs/CV_DosRamosD_2024_EN.pdf';
-import CvNL from './assets/docs/CV_DosRamosD_2024_NL.pdf';
+import CvEN from './assets/docs/CV_DosRamosD_2025_EN.pdf';
+import CvNL from './assets/docs/CV_DosRamosD_2025_NL.pdf';
 
 export const ABOUT = {
   
