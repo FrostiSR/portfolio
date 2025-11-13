@@ -7,7 +7,7 @@ export const ABOUT = {
         left: {
             title: 'I am Daniel dos Ramos, a Full-Stack Developer + Graphic Designer',
             content:
-            `I’m a creative tech enthusiast with a solid foundation in ICT, having graduated from Natin-MBO as an ICT Application Developer. With over 3 years of experience in web development and graphic design, I combine technical skills (including HTML5, PHP, NodeJS, ReactJS, JavaScript, CSS, SQL, and MongoDB) with a strong focus on user experience. I’m currently studying Communication and Multimedia Design at Hogeschool Rotterdam, where I’m further developing my passion for creating intuitive, visually appealing digital products. My goal is to become a successful UX/UI designer or front-end developer who builds smart, user-friendly solutions that truly help people.`
+            `I’m a creative tech enthusiast with a strong ICT background, having graduated from Natin-MBO as an ICT Application Developer. With over 3 years of experience in web development and graphic design, I’ve developed a solid technical foundation in HTML5, PHP, NodeJS, ReactJS, JavaScript, CSS, SQL, and MongoDB, combined with a growing interest in user-centered design. I’m currently studying Communication and Multimedia Design at Hogeschool Rotterdam, where I continue to refine my ability to create intuitive and visually engaging digital products. My goal is to become a skilled UX/UI designer or front-end developer who builds smart, accessible, and meaningful digital solutions that truly support users.`
         },
         right: {
             name: 'Daniël Dos Ramos',
