@@ -15,8 +15,8 @@ export const ABOUT = {
         right: {
             name: 'Daniël Dos Ramos',
             email: 'daniel.dosramos08@gmail.com',
-            age: '24',
-            from: 'Paramaribo, Suriname',
+            age: '26',
+            from: 'Rotterdam, Nederland',
             freelance: 'Available',
         }
     },
