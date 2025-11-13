@@ -20,7 +20,7 @@ export default function HomeContent() {
           />
         </span>
       </p>
-      <p className="loc-text description-text">Based in Paramaribo, Suriname</p>
+      <p className="loc-text description-text">Based in Rotterdam, Nederland</p>
     </>
   );
 }
