@@ -27,7 +27,7 @@ export const ABOUT = {
             content:'I’m a designer with strong perseverance. During a school design project, I fell behind due to personal circumstances. Instead of giving up, I pushed myself to catch up and complete the work to the best of my ability. I spent extra time making sure everything was finished properly and to a good standard. In the end, my effort paid off and I successfully completed the project. As the saying goes in Dutch: hard work always pays off.',
           },
           support:{
-            title: 'Perseverance',
+            title: 'Support',
             content:'I’m a designer with strong perseverance. During a school design project, I fell behind due to personal circumstances. Instead of giving up, I pushed myself to catch up and complete the work to the best of my ability. I spent extra time making sure everything was finished properly and to a good standard. In the end, my effort paid off and I successfully completed the project. As the saying goes in Dutch: hard work always pays off.',
           },
     },
