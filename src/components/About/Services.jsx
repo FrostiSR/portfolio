@@ -6,7 +6,7 @@ import "./About-Services.css";
 export default function About() {
   return (
     <div>
-      <Header title={"Services"} subTitle={"What Do I Do?"} />
+      <Header title={"Strengths"} subTitle={"What Do I Do?"} />
 
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-2">
         <Col xs={12} md={6} className="text-start p-2">
