@@ -10,31 +10,31 @@ export default function About() {
 
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-2">
         <Col xs={12} md={6} className="text-start p-2">
-          <div className="d-flex flex-row align-items-center gap-3">
-            <div className="service-box">
-              <i className="bi bi-palette-fill"></i>
-            </div>
-            <div>
-              <h4 className="fw-bold title-text">
-                {ABOUT.services.graphic.title}
-              </h4>
-              <p className="description-text">
-                {ABOUT.services.graphic.content}
-              </p>
-            </div>
-          </div>
-        </Col>
+  <div className="d-flex flex-row align-items-start gap-3 h-100 service-card">
+    <div className="service-box">
+      <i className="bi bi-palette-fill"></i>
+    </div>
+    <div className="flex-grow-1">
+      <h4 className="fw-bold title-text">
+        {ABOUT.services.graphic.title}
+      </h4>
+      <p className="description-text">
+        {ABOUT.services.graphic.content}
+      </p>
+    </div>
+  </div>
+</Col>
         <Col xs={12} md={6} className="text-start p-2">
-          <div className="d-flex flex-row align-items-center gap-3">
-            <div className="service-box">
-              <i className="bi bi-code-slash"></i>
-            </div>
-            <div>
+  <div className="d-flex flex-row align-items-start gap-3 h-100 service-card">
+    <div className="service-box">
+      <i className="bi bi-palette-fill"></i>
+    </div>
+  <div>
               <h4 className="fw-bold title-text">{ABOUT.services.web.title}</h4>
               <p className="description-text">{ABOUT.services.web.content}</p>
             </div>
-          </div>
-        </Col>
+  </div>
+</Col>
       </div>
     </div>
   );
