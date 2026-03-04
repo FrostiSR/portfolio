@@ -28,7 +28,7 @@ export const ABOUT = {
           },
           support:{
             title: 'Support',
-            content:'I’m a designer with strong perseverance. During a school design project, I fell behind due to personal circumstances. Instead of giving up, I pushed myself to catch up and complete the work to the best of my ability. I spent extra time making sure everything was finished properly and to a good standard. In the end, my effort paid off and I successfully completed the project. As the saying goes in Dutch: hard work always pays off.',
+            content:'I am an empathetic designer who enjoys helping and guiding others. During the second period in Design Challenge and Design Skills, we worked extensively with Figma. Because I already had experience with the tool, many of my teammates asked for help since they had little to no experience with it. I supported them by explaining features, helping them solve problems, and guiding them through the design process. By working together and supporting each other, we were ultimately able to present a well-functioning prototype as our final result.',
           },
     },
   };
