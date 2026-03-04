@@ -28,7 +28,7 @@ export const ABOUT = {
           },
           support:{
             title: 'Support',
-            content:'I am an empathetic designer who enjoys helping and guiding others. During the second period in Design Challenge and Design Skills, we worked extensively with Figma. Because I already had experience with the tool, many of my teammates asked for help since they had little to no experience with it. I supported them by explaining features, helping them solve problems, and guiding them through the design process. By working together and supporting each other, we were ultimately able to present a well-functioning prototype as our final result.',
+            content:'I’m an empathetic designer who enjoys helping and supporting others. During a school design project, my team and I worked extensively with Figma. Because I already had experience with the tool, some of my teammates had little to no experience and sometimes got stuck. I helped them by explaining features, guiding them through tasks, and supporting them whenever they needed it. By working together and helping each other, we were able to create and present a well-functioning prototype as our final result.',
           },
     },
   };
