@@ -19,12 +19,12 @@ export const ABOUT = {
     },
     services:{
         graphic:{
-            title: 'Graphic Design',
-            content:'Designing logos, websites, banners, content marketing materials, and more. If you need a fresh look for your brand or just want to refresh your site design, I am here to help!',
+            title: 'Initiative',
+            content:'I’m a CMD designer who doesn’t wait to be told exactly what to do. When I notice a teammate struggling with a tool like Figma, I take the initiative to help. I explain how certain features work, give tips about layout or components, and think along to find solutions. During a school design project, I also took the initiative to set up and maintain the project documentation. This helped keep design decisions, progress, and agreements clear for the whole team. For me, taking initiative means taking responsibility for the process, sharing knowledge, and actively contributing to both the design and the team.',
           },
         web:{
-            title: 'Web(app) Development',
-            content:'Building high-performing, user-friendly, and secure web products that provide superior customer experience and ensure faster growth.',
+            title: 'Perseverance',
+            content:'I’m a designer with strong perseverance. During a school design project, I fell behind due to personal circumstances. Instead of giving up, I pushed myself to catch up and complete the work to the best of my ability. I spent extra time making sure everything was finished properly and to a good standard. In the end, my effort paid off and I successfully completed the project. As the saying goes in Dutch: hard work always pays off.',
           },
     },
   };
