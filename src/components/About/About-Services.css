@@ -1,9 +1,9 @@
 .service-box{
-padding: 15px 20px;
-border-radius: 20px ;
-width: fit-content;
-background: #121718;
-font-size: 2.1em;
-color: #64CCC5;
+  padding: 10px 14px;   /* smaller padding */
+  border-radius: 16px;
+  width: fit-content;
+  background: #121718;
+  font-size: 1.6em;     /* smaller icon */
+  color: #64CCC5;
 }
 
