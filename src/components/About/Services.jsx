@@ -12,7 +12,7 @@ export default function About() {
         <Col xs={12} md={6} className="text-start p-2">
   <div className="d-flex flex-row align-items-start gap-3 h-100 service-card">
     <div className="service-box">
-      <i className="bi bi-palette-fill"></i>
+     <i className="bi bi-lightbulb-fill"></i>
     </div>
     <div className="flex-grow-1">
       <h4 className="fw-bold title-text">
@@ -27,7 +27,7 @@ export default function About() {
         <Col xs={12} md={6} className="text-start p-2">
   <div className="d-flex flex-row align-items-start gap-3 h-100 service-card">
     <div className="service-box">
-      <i className="bi bi-palette-fill"></i>
+      <i className="bi bi-graph-up-arrow"></i>
     </div>
   <div>
               <h4 className="fw-bold title-text">{ABOUT.services.web.title}</h4>
