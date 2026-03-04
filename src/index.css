@@ -19,7 +19,7 @@ a.active{
 body {
   overflow-x: hidden;
   color: #fff !important;
-  background-color: #060808  !important;
+  background-color: #0F1416 !important;
 }
 
 @media (prefers-color-scheme: light) {
