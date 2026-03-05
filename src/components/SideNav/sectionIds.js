@@ -8,12 +8,12 @@ export const linkItems= [
         "iconsId" : "bi bi-person-fill"
     },
     {
-        "sectionId": "resume",
-        "iconsId" : "bi bi-file-earmark-text-fill"
+         "sectionId": "portfolio",
+        "iconsId" : "bi bi-briefcase-fill"
     },
     {
-        "sectionId": "portfolio",
-        "iconsId" : "bi bi-briefcase-fill"
+       "sectionId": "resume",
+        "iconsId" : "bi bi-file-earmark-text-fill"
     },
     {
         "sectionId": "extra",

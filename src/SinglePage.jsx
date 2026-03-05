@@ -30,9 +30,9 @@ export default function SinglePage() {
           <hr className="sub-border" />
           <About />
           <hr className="sub-border" />
-          <Resume />
+           <Portfolio />
           <hr className="sub-border" />
-          <Portfolio />
+          <Resume /> 
           <hr className="sub-border" />
           <Extra />
           <hr className="sub-border" />
