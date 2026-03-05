@@ -20,15 +20,15 @@ export const ABOUT = {
     services:{
         graphic:{
             title: 'Initiative',
-            content:'I’m a CMD designer who doesn’t wait to be told exactly what to do. When I notice a teammate struggling with a tool like Figma, I take the initiative to help. I explain how certain features work, give tips about layout or components, and think along to find solutions. During a school design project, I also took the initiative to set up and maintain the project documentation. This helped keep design decisions, progress, and agreements clear for the whole team. For me, taking initiative means taking responsibility for the process, sharing knowledge, and actively contributing to both the design and the team.',
+            content:'I’m a CMD designer who doesn’t wait to be told what to do. When I notice a teammate struggling with a tool like Figma, I take the initiative to help by explaining features, sharing tips and thinking along to find solutions. During a school design project, I also took responsibility for setting up and maintaining the project documentation, which helped keep decisions and progress clear for the whole team. For me, taking initiative means taking responsibility, sharing knowledge, and actively contributing to both the design and the team.',
           },
         web:{
             title: 'Perseverance',
-            content:'I’m a designer with strong perseverance. During a school design project, I fell behind due to personal circumstances. Instead of giving up, I pushed myself to catch up and complete the work to the best of my ability. I spent extra time making sure everything was finished properly and to a good standard. In the end, my effort paid off and I successfully completed the project. Hard work always pays off.',
+            content:'I’m a designer with strong perseverance. During a school design project, I fell behind due to personal circumstances. Instead of giving up, I pushed myself to catch up and complete the work to the best of my ability. I spent extra time making sure everything was finished properly and met a good standard. In the end, my effort paid off and I successfully completed the project. As I like to say, “Hard work eventually speaks for itself.”',
           },
           support:{
             title: 'Support',
-            content:'I’m an empathetic designer who enjoys helping and supporting others. During a school design project, my team and I worked extensively with Figma. Because I already had experience with the tool, some of my teammates had little to no experience and sometimes got stuck. I helped them by explaining features, guiding them through tasks, and supporting them whenever they needed it. By working together and helping each other, we were able to create and present a well-functioning prototype as our final result.',
+            content:'I’m an empathetic designer who enjoys helping and supporting others. During a school design project, we worked extensively with Figma and some teammates had little to no experience with the tool. Because I was already familiar with it, I helped by explaining features, guiding them through tasks and supporting them when they got stuck. By collaborating and helping each other, we were able to create and present a well-functioning prototype as our final result.',
           },
     },
   };
