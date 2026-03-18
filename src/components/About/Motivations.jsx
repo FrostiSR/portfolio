@@ -8,7 +8,7 @@ export default function About() {
         <div>
             <Header title={"Strengths"} subTitle={"What I bring to a project"} />
 
-            <div className="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3 text-center">
+            <div className="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
                 <Col xs={12} md={6} className="text-start p-2">
                     <div className="d-flex flex-row align-items-start gap-3 h-100 service-card">
                         <div className="service-box">
