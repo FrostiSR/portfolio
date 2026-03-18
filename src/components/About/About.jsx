@@ -1,6 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Services from "./Services";
+import Motivations from "./Motivations";
 import { ABOUT } from "../../data";
 import Socials from "../SocialIcons/Socials";
 import Section from "../Section/Section";
@@ -45,6 +46,7 @@ export default function About() {
           <Socials />
         </Col> */}
       </Row>
+      <Motivations />
       <Services />
     </Section>
   );
