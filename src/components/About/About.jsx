@@ -24,7 +24,7 @@ export default function About() {
         </Col>
         <Col xs={12} md={12} className="text-center p-2 py-4">
           <blockquote className="blockquote mt-3">
-            <p className="display-6 fst-italic" style={{ color: 'var(--bs-teal, #a8f0e7)', lineHeight: '1.4' }}>
+            <p className="display-6 fst-italic" style={{ color: '#64ccc5', lineHeight: '1.4' }}>
               "No matter the obstacles, hard work and perseverance always pay off."
             </p>
           </blockquote>
