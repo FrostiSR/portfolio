@@ -3,7 +3,7 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import "./Portfolio.css";
 import Web from "./Web";
-import Cmd from "./CMD";
+import CMD from "./CMD";
 import Graphic from "./Graphic";
 import Photography from "./Photography";
 
@@ -22,7 +22,7 @@ export default function Portfolio() {
         className="mb-3 justify-content-end"
       >
         <Tab eventKey="cmd" title="CMD Projects">
-          <Cmd />
+          <CMD />
         </Tab>
         <Tab eventKey="development" title="Development">
           <Web />
