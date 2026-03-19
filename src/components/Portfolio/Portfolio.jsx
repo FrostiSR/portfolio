@@ -20,9 +20,6 @@ export default function Portfolio() {
         id="noanim-tab-example"
         className="mb-3 justify-content-end"
       >
-        <Tab eventKey="cmd" title="CMD Projects">
-          <Web />
-        </Tab>
         <Tab eventKey="development" title="Development">
           <Web />
         </Tab>
