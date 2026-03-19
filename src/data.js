@@ -20,7 +20,7 @@ export const ABOUT = {
     graphic: {
       title: "Initiative",
       content:
-        "I’m a CMD designer who doesn’t wait to be told what to do. When I notice a teammate struggling with a tool like Figma, I take the initiative to help by explaining features, sharing tips and thinking along to find solutions. During a school design project, I also took responsibility for setting up and maintaining the project documentation, which helped keep decisions and progress clear for the whole team. For me, taking initiative means taking responsibility, sharing knowledge and actively contributing to both the design and the team.",
+        "I’m a CMD designer who doesn’t wait to be told what to do. When I notice a teammate struggling with a tool like Figma, I take the initiative to help by explaining features, sharing tips and thinking along to find solutions. During a school design project, I also took responsibility for setting up and maintaining the project documentations, which helped keep decisions and progress clear for the whole team. For me, taking initiative means taking responsibility, sharing knowledge and actively contributing to both the design and the team.",
     },
     web: {
       title: "Perseverance",
@@ -37,7 +37,7 @@ export const ABOUT = {
     creativity: {
       title: "Creativity",
       content:
-        "Creativity is one of my biggest drivers. When I get the chance to design or build something new, I feel a lot of energy and excitement. I enjoy turning ideas into real interfaces and concepts, especially in digital design. I like experimenting, improving existing ideas and working under pressure, like during hackathons, where I quickly create innovative solutions. The process of inventing and building something meaningful motivates me the most.",
+        "Creativity is one of my biggest drivers. When I get the chance to design or build something new, I feel a lot of energy and excitement. I enjoy turning ideas into real interfaces and concepts, especially in digital design. I like experimenting, improving existing ideas and working under pressure, like during hackathons, where I quickly had to create innovative solutions. The process of inventing and building something meaningful motivates me the most.",
     },
     meaning: {
       title: "Meaning",
