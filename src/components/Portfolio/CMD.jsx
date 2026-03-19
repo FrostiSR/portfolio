@@ -21,15 +21,14 @@ export default function Web() {
               src={
                 "https://res.cloudinary.com/dim8i07e6/image/upload/v1773915723/Slob_Kool_Teal_expositie_v2_tskaba.jpg"
               }
-              alt={alt}
             />
             <div className="image-hover">
               <h4>Depot Beleving Prototype</h4>
             </div>
           </a>
         </div>
-        <h5>{title}</h5>
-        <p className="description-text">{type}</p>
+        {/* <h5>"{title}"</h5>
+        <p className="description-text">{type}</p> */}
       </div>
                 </div>
               </Fragment>
