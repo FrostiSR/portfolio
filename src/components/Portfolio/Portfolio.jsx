@@ -16,7 +16,7 @@ export default function Portfolio() {
       subTitle={"My Work"}
     >
       <Tabs
-        defaultActiveKey="development"
+        defaultActiveKey="cmd"
         transition={true}
         id="noanim-tab-example"
         className="mb-3 justify-content-end"
