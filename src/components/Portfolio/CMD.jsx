@@ -7,15 +7,6 @@ import CardCase from "./CardCase";
 export default function Web() {
   const [webcases, setWebCases] = useState([]);
   const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    axios
-      .get("https://portfolio-server-nine-ruddy.vercel.app/getCaseCmd")
-      .then((webcases) => {
-        setWebCases(webcases.data);
-        setLoading(false);
-      })
-      .catch((err) => console.log(err));
-  }, []);
   return (
     <>
       <div className="d-flex flex-row flex-wrap justify-content-start text-center">
