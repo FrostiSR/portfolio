@@ -22,6 +22,12 @@ export default function About() {
           dangerouslySetInnerHTML={{ __html: ABOUT.about.left.content }}
         ></p>
         </Col>
+        <Col xs={12} md={12} className="text-start p-2">
+          <h4 className="fw-bold title-text">Quote</h4>
+         <p
+          className="description-text"
+        >"<i>No matter the obstacles, hard work and perseverance always pay off.</i>”</p>
+        </Col>
         {/* <Col xs={12} md={6} className="text-start p-2">
           <p>
             <span className="fw-bold head-color">Name: </span>{" "}
