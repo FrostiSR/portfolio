@@ -17,16 +17,18 @@ export default function About() {
       <Row className="text-center justify-content-evenly">
         <Col xs={12} md={12} className="text-start p-2">
           <h4 className="fw-bold title-text">{ABOUT.about.left.title}</h4>
-         <p
-          className="description-text"
-          dangerouslySetInnerHTML={{ __html: ABOUT.about.left.content }}
-        ></p>
+          <p
+            className="description-text"
+            dangerouslySetInnerHTML={{ __html: ABOUT.about.left.content }}
+          ></p>
         </Col>
-        <Col xs={12} md={12} className="text-start p-2">
+        <Col xs={12} md={12} className="text-center p-2 py-4">
           <h4 className="fw-bold title-text">Quote</h4>
-         <p
-          className="description-text"
-        >"<i>No matter the obstacles, hard work and perseverance always pay off.</i>”</p>
+          <blockquote className="blockquote mt-3">
+            <p className="display-6 fst-italic" style={{ color: 'var(--bs-teal, #2dd4bf)', lineHeight: '1.4' }}>
+              "No matter the obstacles, hard work and perseverance always pay off."
+            </p>
+          </blockquote>
         </Col>
         {/* <Col xs={12} md={6} className="text-start p-2">
           <p>
