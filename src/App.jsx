@@ -2,6 +2,7 @@
 import { useLocation } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import SinglePage from "./SinglePage";
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const location = useLocation();
