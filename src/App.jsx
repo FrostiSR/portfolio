@@ -2,7 +2,7 @@
 import { useLocation } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import SinglePage from "./SinglePage";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const location = useLocation();
@@ -13,6 +13,7 @@ function App() {
         <Route path="/admin" element={<Redirect />} />
         <Route path="*" element={<SinglePage />} />
       </Routes>
+      <Analytics />
     </>
   );
 }
