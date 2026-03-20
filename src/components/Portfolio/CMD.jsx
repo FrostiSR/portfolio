@@ -23,7 +23,7 @@ export default function Web() {
               }
             />
             <div className="image-hover">
-              <h4>Depot Beleving Prototype</h4>
+              <h4>Depot Beleving Prototype (Figma)</h4>
             </div>
           </a>
         </div>
